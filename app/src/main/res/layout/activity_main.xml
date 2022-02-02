@@ -32,5 +32,14 @@
             android:hint="Test EditText"
             android:inputType="text"
             android:importantForAutofill="no" />
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="0dp"
+            android:hint="Testing EditText2"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </com.google.android.material.textfield.TextInputLayout>
     </LinearLayout>
 </ScrollView>
