@@ -31,11 +31,11 @@ class MainActivity : ComponentActivity() {
                 ) {
                     Column(
                         modifier = Modifier
-                            .verticalScroll(rememberScrollState())
+                            .verticalScroll(rememberScrollState()) //Scrolling
                             .fillMaxHeight()
                     ) {
                         Icon(
-                            Icons.Default.AccountBox, "",
+                            Icons.Default.AccountBox, "", // If you change the content description to have a value scrolling works
                             modifier = Modifier.fillMaxWidth().height(Dp(1000f))
                         )
                         Text("test")
